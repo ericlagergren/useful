@@ -121,7 +121,6 @@ alias gpom='git push origin master'
 alias lsa='ls -a'
 alias lsal='ls -al'
 alias lsl='ls -l'
-alias proj="cd $GOPATH/src/sermocrm.com"
 
 #################
 ### FUNCTIONS ###
