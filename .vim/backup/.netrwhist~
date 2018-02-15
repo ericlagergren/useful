@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/ericlagergren/.vim/temp'
+let g:netrw_dirhist_2='/Users/ericlagergren/gopath/src/github.com/ericlagergren/decimal/internal/arith/checked'
+let g:netrw_dirhist_3='/Users/ericlagergren/gopath/src/sermocrm.com/cmd/sermocrm-api'
+let g:netrw_dirhist_4='/Users/ericlagergren/gopath/src/sermocrm.com/cmd/sermocrm-basic'
+let g:netrw_dirhist_5='/Users/ericlagergren/gopath/src/github.com/sermodigital/sharecrate-delivery/api'
+let g:netrw_dirhist_6='/Users/ericlagergren/gopath/src/sermocrm.com/pkg/csv'
+let g:netrw_dirhist_7='/Users/ericlagergren/gopath/src/sermocrm.com/cmd/sermocrm-api'
+let g:netrw_dirhist_8='/Users/ericlagergren/gopath/src/sermocrm.com/servers/forms_standalone'

@@ -1,0 +1,30 @@
+[user]
+	name = Eric Lagergren
+	email = ericscottlagergren@gmail.com
+	signingkey = 0xAF50F85D5B5C7BE7
+[http]
+	cookiefile = /Users/ericlagergren/.gitcookies
+[alias]
+	change = codereview change
+	gofmt = codereview fmt
+	mail = codereview mail
+	pending = codereview pending
+	submit = codereview submit
+	sync = codereview sync
+	todo = grep -E \"TODO\"
+	lola = log --graph --decorate --pretty=oneline --abbrev-commit
+	git = !exec git
+[tag]
+	forceSignAnnotated true
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[url "git@bitbucket.org:"]
+	insteadOf = "https://bitbucket.org/"
+[web]
+	browser = chromium
+[core]
+	pager = diff-so-fancy | less --tabs=1,5 -R
+[gpg]
+	program = gpg
+[merge]
+	tool = kdiff3

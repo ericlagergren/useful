@@ -1,0 +1,12 @@
+[submodule "wp-content/themes/corporatecrate/lib/acf"]
+	path = wp-content/themes/corporatecrate/lib/acf
+	url = https://github.com/SermoDigital/acf.git
+[submodule "wp-content/themes/corporatecrate/vendor/acf"]
+	path = wp-content/themes/corporatecrate/vendor/acf
+	url = https://github.com/SermoDigital/acf.git
+[submodule "wp-content/themes/corporatecrate/lib/vendor/acf"]
+	path = wp-content/themes/corporatecrate/lib/vendor/acf
+	url = https://github.com/SermoDigital/acf.git
+[submodule "wp-content/themes/corporatecrate/js/custom/closure-compiler"]
+	path = wp-content/themes/corporatecrate/js/custom/closure-compiler
+	url = git@github.com:google/closure-compiler.git

@@ -1,0 +1,6 @@
+#if use-ssh-agent is specified in /etc/X11/Xsession.options
+# (this is the default) then you need only the second line
+eval ssh-agent
+ssh-add
+#exec gnome-session
+openbox-session

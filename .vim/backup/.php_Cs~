@@ -1,0 +1,14 @@
+<?php
+
+$finder = PhpCsFixer\Finder::create()
+    ->in(__DIR__);
+
+return PhpCsFixer\Config::create()
+    ->setRules([
+        '@Symfony' => true,
+		'@PHP71Migration' => true,
+        'strict_param' => true,
+        'array_syntax' => ['syntax' => 'short'],
+		'concat_space' => false,
+    ])
+    ->setFinder($finder);
